@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: auto;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1180px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .container {
+    width: 1480px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .container {
+    width: 1780px;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  .container {
+    width: 2080px;
+  }
+}
+
+header nav {
+  text-align: center;
+  padding-bottom: 18px;
+}
+
+#navBar a:link {
+  /* font-family: roboto;
+  font-family: Raleway,sans-serif
+  font-weight: 600; */
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1800;
+  color: #444;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#navBar a:visited {
+  color: #444;
+}
+
+#navBar a:selected {
+  color: rgb(250, 115, 43);
+}
+
+#navBar a:hover {
+  color: rgb(250, 115, 43);
+}
+
+.sectionOne {
+  background-color: rgb(208, 208, 208);
+  padding: 5%;
+  padding-bottom: 3%;
+}
+
+.sectionOne h3 {
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1800;
+  color: rgb(250, 115, 43);
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-family: "Amatic SC", cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  color: #444;
+  text-transform: uppercase;
+  margin-top: 1%;
+}
+
+h2 {
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1800;
+  color: #444;
+  font-size: 50px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.sectionTwo {
+  background-color: rgb(208, 208, 208);
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.sectionTwo > div {
+  background-color: white;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.sectionTwo img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.sectionTwo img:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  transition: 0.5s ease;
+}
+
+.sectionMid {
+  background-color: rgb(208, 208, 208);
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.sectionMid > div {
+  background-color: white;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.sectionMid img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.sectionMid img:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  transition: 0.5s ease;
+}
+
+.sectionFive {
+  background-color: rgb(208, 208, 208);
+  padding-top: 1%;
+  padding-bottom: 6%;
+}
+
+.sectionFive > div {
+  background-color: white;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.sectionFive img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.sectionFive img:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  transition: 0.5s ease;
+}
+
+#information .col-sm {
+  padding: 4% 5%;
+}
+
+#information {
+  background-color: white;
+  color: #444;
+  width: 100%;
+  /* padding-left: 4%; */
+}
+
+#information h3 {
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1800;
+}
+
+#information a {
+  color: #444;
+}
+
+i {
+  transition: 0.5s ease;
+}
+
+i:hover {
+  color: rgb(250, 115, 43);
+  transition: 0.5s ease;
+}

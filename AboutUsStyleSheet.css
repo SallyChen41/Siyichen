@@ -1,0 +1,297 @@
+* {
+  border: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1180px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .container {
+    width: 1480px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .container {
+    width: 1780px;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  .container {
+    width: 2080px;
+  }
+}
+
+header nav {
+  text-align: center;
+  background-color: #f6f1e4;
+}
+
+#navBar a:link {
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1800;
+  color: #444;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#navBar a:visited {
+  color: #444;
+}
+
+#navBar a:selected {
+  color: rgb(250, 115, 43);
+}
+
+#navBar a:hover {
+  color: rgb(250, 115, 43);
+}
+
+.sectionOne {
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+  background-color: #f6f1e4;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 18%;
+  background-image: url(https://playroom.qodeinteractive.com/wp-content/uploads/2020/07/p1-title-img1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sectionOne h1 {
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1500;
+  color: #444;
+  font-size: 68px;
+  padding-top: 1%;
+}
+
+h5 {
+  font-family: "Amatic SC", cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  color: #444;
+  text-transform: uppercase;
+  margin-top: 5%;
+}
+
+.sectionTwo {
+  background-color: #c3e1db;
+}
+
+h2 {
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1800;
+  color: #8dc8ae;
+  font-size: 50px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  /* text-transform: uppercase; */
+}
+
+#two {
+  color: #444;
+}
+
+#three {
+  color: #f47647;
+}
+
+h4 {
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1800;
+  color: #444;
+  padding-top: 10%;
+}
+
+#rowInTwo {
+  margin-left: -3%;
+}
+
+#rowInTwo .col-sm {
+  background-color: none;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 7%;
+}
+
+#rowInTwo .col-sm p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.sectionThree img {
+  width: 100%;
+}
+
+.sectionThree {
+  width: 100%;
+  background-color: #f6e3db;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.sectionFour {
+  background-color: #c3e1db;
+}
+
+.sectionFour > div {
+  margin: auto;
+  margin-left: 0%;
+}
+
+.sectionFour img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.sectionFour p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#information .col-sm {
+  padding: 4% 5%;
+}
+
+#information {
+  background-color: #f6f1e4;
+  color: #444;
+  width: 100%;
+  padding-left: 4%;
+}
+
+#information h3 {
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1800;
+}
+
+.sectionFive {
+  background-color: #f6e3db;
+}
+
+button {
+  background-color: rgb(248, 234, 226);
+  width: 140px;
+  height: 60px;
+  border-width: 2px;
+  border-color: rgb(250, 115, 43);
+  border-style: dotted;
+  border-radius: 12px;
+  margin-top: 2%;
+}
+
+/* .sectionOneContent  */
+button a:link {
+  font-family: "Baloo Chettan", cursive;
+  /* font-family: Raleway,sans-serif； */
+  font-weight: 900;
+  color: rgb(250, 115, 43);
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* .sectionOneContent  */
+button a:visited {
+  color: rgb(250, 115, 43);
+}
+
+/* .sectionOne */
+/* Content  */
+button a:hover {
+  color: rgb(251, 184, 0);
+  transition: 1s;
+}
+
+.bg {
+  position: relative;
+}
+.bg img {
+  display: block;
+  /* position: absolute; */
+}
+
+.bg img:last-child {
+  display: none;
+}
+
+.bg:hover img:first-child {
+  display: none;
+}
+.bg:hover img:last-child {
+  display: block;
+}
+
+.Object {
+  animation: floating 3s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0px, 15px);
+  }
+  to {
+    transform: translate(0, 0px);
+  }
+}
+
+.object {
+  animation: floatings 3s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes floatings {
+  from {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0px, -15px);
+  }
+  to {
+    transform: translate(0, 0px);
+  }
+}
+
+#information a {
+  color: #444;
+}
+
+.sectionFour a {
+  color: #444;
+}

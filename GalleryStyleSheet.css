@@ -1,0 +1,153 @@
+* {
+  border: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1180px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .container {
+    width: 1480px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .container {
+    width: 1780px;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  .container {
+    width: 2080px;
+  }
+}
+header {
+  margin-bottom: 3%;
+}
+
+header nav {
+  text-align: center;
+  background-color: #f6f1e4;
+  padding-bottom: 1%;
+}
+
+#navBar a:link {
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1800;
+  color: #444;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#navBar a:visited {
+  color: #444;
+}
+
+#navBar a:selected {
+  color: rgb(250, 115, 43);
+}
+
+#navBar a:hover {
+  color: rgb(250, 115, 43);
+}
+
+#information .col-sm {
+  padding: 4% 5%;
+}
+
+#information {
+  background-color: #f6f1e4;
+  color: #444;
+  width: 100%;
+  padding-left: 4%;
+  margin-top: 6%;
+}
+
+h3 {
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1800;
+}
+
+.sectionOne img {
+  width: 100%;
+  border: 1px rgb(250, 115, 43) solid;
+  border-radius: 10px;
+  border-style: dashed;
+}
+
+#wrapper {
+  position: relative;
+  width: 50%;
+}
+
+.sectionOne .img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: white;
+}
+
+#wrapper:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: rgb(250, 115, 43);
+  font-size: 24px;
+  font-family: "Baloo Chettan", cursive;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.sectionOne .col-sm {
+  padding-top: 3%;
+}
+
+#information a {
+  color: #444;
+}

@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: auto;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1180px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .container {
+    width: 1480px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .container {
+    width: 1780px;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  .container {
+    width: 2080px;
+  }
+}
+
+header nav {
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 1%;
+}
+
+#navBar a:link {
+  /* font-family: roboto;
+  font-family: Raleway,sans-serif
+  font-weight: 600; */
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1800;
+  color: #444;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#navBar a:visited {
+  color: #444;
+}
+
+#navBar a:selected {
+  color: rgb(250, 115, 43);
+}
+
+#navBar a:hover {
+  color: rgb(250, 115, 43);
+}
+
+.sectionOne {
+  background-color: #f6f1e4;
+  padding: 5%;
+  padding-bottom: 2%;
+}
+
+.sectionOne h3 {
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1800;
+  color: #444;
+  font-size: 40px;
+  margin-bottom: -6%;
+}
+
+.sectionTwo {
+  background-color: #f6f1e4;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.sectionTwo > div {
+  padding-bottom: 6%;
+  padding-top: 1%;
+}
+
+.sectionTwo img {
+  width: 100%;
+  height: 60%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.sectionTwo .col-sm {
+  margin-top: 3%;
+}
+
+.sectionTwo p {
+  font-family: 26px roboto;
+  font-weight: 100;
+  color: #444;
+  text-transform: uppercase;
+}
+
+.insideCol {
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+}
+
+#information .col-sm {
+  padding: 4% 5%;
+}
+
+#information {
+  background-color: #f6e3db;
+  color: #444;
+  width: 100%;
+  padding-left: 4%;
+}
+
+h3 {
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1800;
+  color: #444;
+}
+
+h4 {
+  font-family: "Baloo Chettan", cursive;
+  font-weight: 1800;
+  font-size: 23px;
+  color: #444;
+}
+
+h5 {
+  font-family: "Amatic SC", cursive;
+  font-size: 28px;
+  font-weight: bolder;
+  color: #444;
+  text-transform: uppercase;
+  margin-top: 5%;
+}
+
+#two {
+  color: #444;
+}
+
+#three {
+  color: #f47647;
+}
+
+.sectionTwo img {
+  transition: 0.5s ease;
+}
+
+.sectionTwo img:hover {
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  transition: 0.5s ease;
+}
+
+#information a {
+  color: #444;
+}
